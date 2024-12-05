@@ -1,6 +1,6 @@
 {
-  "name": "react-flags-select",
-  "version": "2.2.3",
+  "name": "react-flags-select-minified",
+  "version": "2.0.2",
   "description": "react-flags-select React component",
   "main": "build/index.js",
   "module": "build/index.esm.js",
@@ -87,14 +87,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ekwonye-richard/react-flags-select.git"
+    "url": "git+https://github.com/vithano/react-flags-select.git"
   },
   "author": "Richard Ekwonye",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ekwonye-richard/react-flags-select/issues"
+    "url": "https://github.com/vithano/react-flags-select/issues"
   },
-  "homepage": "https://github.com/ekwonye-richard/react-flags-select#readme",
+  "homepage": "https://github.com/vithano/react-flags-select#readme",
   "keywords": [
     "react-component"
   ]

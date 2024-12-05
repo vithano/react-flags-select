@@ -73,10 +73,8 @@ const ReactFlagsSelect: React.FC<Props> = ({
 }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
   const [countriesOptions, setCountriesOptions] = useState<CountryCodes>([]);
-  const [
-    filteredCountriesOptions,
-    setFilteredCountriesOptions,
-  ] = useState<CountryCodes>([]);
+  const [filteredCountriesOptions, setFilteredCountriesOptions] =
+    useState<CountryCodes>([]);
   const [filterValue, setFilterValue] = useState<string>("");
 
   const selectedFlagRef = useRef(null);
